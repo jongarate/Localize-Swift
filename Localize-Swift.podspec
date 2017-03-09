@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files = 'Sources'
+  s.source_files = 'Sources', 'genstrings.swift'
 
   # s.dependency 'AFNetworking', '~> 2.3'
 end
