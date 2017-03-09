@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources'
 
   s.resource_bundles = {
-    'LocalizationScripts' => ['genstrings.swift']
+    'LocalizationScripts' => ['genstrings']
     }
 
   # s.dependency 'AFNetworking', '~> 2.3'
