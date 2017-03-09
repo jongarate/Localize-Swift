@@ -1,3 +1,3 @@
-"awesome".localized("comment")
+"awesome".localized(comment:"comment")
 
-"awesome".localized("comment different 2")
+"awesome".localized(comment: "comment different 2")

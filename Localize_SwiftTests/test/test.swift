@@ -1,8 +1,8 @@
 "sans comment".localized()
-"awesome".localized("comment")
+"awesome".localized(comment: "comment")
 let fubar = "harmlessString"
 
 
-"awesome".localized("comment")
+"awesome".localized(comment: "comment")
 
-"awesome".localized("comment different")
+"awesome1".localized("comment differentX")
