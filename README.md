@@ -58,15 +58,11 @@ Localize.resetCurrentLanguageToDefault()
 
 To support this new i18n syntax, Localize-Swift includes custom genstrings swift script.
 
-Copy the genstrings.swift file into your project's root folder and run with
+The script is already included in the Pod, so if you are using Cocoapods, you can add a Build Run Script such as:
 
 ```bash
-./genstrings.swift
+"${PODS_ROOT}/Localize-Swift/genstrings" "${PRODUCT_NAME}" >> "${PRODUCT_NAME}/Resources/Localizations/Base.lproj/Localizable.strings"
 ```
-
-This will print the collected strings in the terminal. Select and copy to your default Localizable.strings.
-
-The script includes the ability to specify excluded directories and files (by editing the script).
 
 ### Setting up with Carthage
 
